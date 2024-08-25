@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const SectionTitle = ({heading, subheading, bg}) => {
     return (
-        <div className='text-center my-8 flex flex-col justify-center items-center space-y-4'>
+        <div className='text-center my-8 mt-20 flex flex-col justify-center items-center space-y-4'>
             <p className='text-[#D99904]'>
             ---{
                     heading

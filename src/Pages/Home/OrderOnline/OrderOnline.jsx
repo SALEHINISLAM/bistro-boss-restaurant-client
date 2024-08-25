@@ -45,7 +45,7 @@ const OrderOnline = (props) => {
             alt=""
             className="w-full h-full"
           />
-          <h3 className="text-3xl text-white text-center uppercase -mt-12 drop-shadow-md">
+          <h3 className="text-3xl font-cinzel font-semibold text-white text-center uppercase -mt-12 drop-shadow-md">
             Salads
           </h3>
         </SwiperSlide>
@@ -55,7 +55,7 @@ const OrderOnline = (props) => {
             alt=""
             className="w-full h-full"
           />
-          <h3 className="text-3xl text-white text-center uppercase -mt-12 drop-shadow-md">
+          <h3 className="text-3xl font-cinzel font-semibold text-white text-center uppercase -mt-12 drop-shadow-md">
             pizzas
           </h3>
         </SwiperSlide>
@@ -65,7 +65,7 @@ const OrderOnline = (props) => {
             alt=""
             className="w-full h-full"
           />
-          <h3 className="text-3xl text-white text-center uppercase -mt-12 drop-shadow-md">
+          <h3 className="text-3xl font-cinzel font-semibold text-white text-center uppercase -mt-12 drop-shadow-md">
             soups
           </h3>
         </SwiperSlide>
@@ -75,7 +75,7 @@ const OrderOnline = (props) => {
             alt=""
             className="w-full h-full"
           />
-          <h3 className="text-3xl text-white text-center uppercase -mt-12 drop-shadow-md">
+          <h3 className="text-3xl font-cinzel font-semibold text-white text-center uppercase -mt-12 drop-shadow-md">
             deserts
           </h3>
         </SwiperSlide>
@@ -85,7 +85,7 @@ const OrderOnline = (props) => {
             alt=""
             className="w-full h-full"
           />
-          <h3 className="text-3xl text-white text-center uppercase -mt-12 drop-shadow-md">
+          <h3 className="text-3xl font-cinzel font-semibold text-white text-center uppercase -mt-12 drop-shadow-md">
             Onions
           </h3>
         </SwiperSlide>

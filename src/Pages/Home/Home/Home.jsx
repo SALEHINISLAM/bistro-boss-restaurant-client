@@ -5,17 +5,23 @@ import PopularMenu from "../PopularMenu/PopularMenu";
 import Featured from "../Featured/Featured";
 import Testimonials from "../Testimonials/Testimonials";
 import SectionTitle from "../../../Components/SectionTitle";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>
+          Bistro Boss | Home
+        </title>
+      </Helmet>
       <Banner />
       <OrderOnline />
       <div className="container mx-auto py-20">
         <div className="bg-[url('https://i.ibb.co/kmkxyqL/chef-service.jpg')] p-10 lg:p-20 text-center w-full h-full">
           <div className="bg-white p-4">
-            <h2 className="uppercase text-black text-4xl">Bistro Boss</h2>
-            <p>
+            <h2 className="uppercase text-black text-4xl py-8 font-cinzel font-semibold">Bistro Boss</h2>
+            <p className="text-black">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus, libero accusamus laborum deserunt ratione dolor
               officiis praesentium! Deserunt magni aperiam dolor eius dolore at,
@@ -26,8 +32,8 @@ const Home = () => {
       </div>
       <PopularMenu />
       <div className="container mx-auto">
-        <div className="bg-black text-white text-5xl font-semibold text-center min-h-64 justify-center items-center flex my-20">
-          Call Us: +88 0192345678910
+        <div className="bg-black text-white font-raleway text-5xl font-semibold text-center min-h-64 justify-center items-center flex my-20">
+          Call Us: +88 01227112003
         </div>
         <SectionTitle heading={"Should Try"} subheading={"CHEF RECOMMENDS"} />
 

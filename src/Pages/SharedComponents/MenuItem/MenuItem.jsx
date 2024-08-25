@@ -6,8 +6,8 @@ const MenuItem = ({item}) => {
     return (
         <div className='flex gap-4'>
             <img src={image} alt="" className='h-28 w-32 rounded-full rounded-tl-none'/>
-            <div className="">
-            <h3 className='uppercase'>
+            <div className="text-black">
+            <h3 className='uppercase font-cinzel font-medium'>
                 {
                     name
                 }------------------
