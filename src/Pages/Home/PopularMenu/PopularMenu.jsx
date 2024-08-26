@@ -4,6 +4,7 @@ import SectionTitle from '../../../Components/SectionTitle';
 import MenuItem from '../../SharedComponents/MenuItem/MenuItem';
 import useMenu from '../../../hooks/useMenu';
 import BottomBorderButton from '../../SharedComponents/BottomBorderButton/BottomBorderButton';
+import { Link } from 'react-router-dom';
 
 const PopularMenu = props => {
     const [menu]=useMenu()
@@ -27,7 +28,9 @@ const PopularMenu = props => {
                 ))
             }
             </div>
+            <Link to={'/menu'}>
             <BottomBorderButton title={'View Full Menu'}/>
+            </Link>
         </div>
     );
 };
